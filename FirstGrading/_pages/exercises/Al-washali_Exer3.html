@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tables</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tables exercise">
+  <meta name="keywords" content="Table, Tables, Exercise">
+  <meta name="author" content="Hamzah Al-washali">
+  <style type="text/css">
+
+    .TableA {
+      border: 1px solid #333; margin: 30px 50px;
+    }
+
+    .TableB {
+      border: 6px solid rgb(85, 85, 85); margin: 30px 50px; 
+    }
+
+    .TableC {
+      border: 1px solid #333; border-spacing: 20px 20px; margin: 30px 50px; 
+    }
+
+    .ItemsA {
+      border: 1px solid #333;
+      padding: 5px;
+    }
+
+    .Label {
+      margin: 0px 50px;
+    }
+
+    .ItemsB {
+      border: 1px solid #333;
+      padding: 20px;
+    }
+
+    .TitleCenterA {
+      border: 1px solid #333;
+      text-align: center;
+    }
+
+    .TitleCenterB {
+      border: 1px solid #333;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+    <a href="../example/mediaandlinks.html">Back to Links</a>
+  <!-- Table A -->
+  <table class="TableA">
+    <caption style="padding: 10px 0px;" align="bottom"><i>Table A</i></caption>
+    <tr>
+      <td class="ItemsA">Jacob</td>
+      <td class="ItemsA">Jacob</td>
+      <td class="ItemsA">Harry</td>
+    </tr>
+    <tr>
+      <td class="ItemsA">Reece</td>
+      <td class="ItemsA">Rhys</td>
+      <td class="ItemsA">Charlie</td>
+    </tr>
+  </table>
+
+  <!-- Table B -->
+  <table class="TableB">
+    <caption style="padding: 10px 0px;" align="bottom"><b>Table B</b></caption>
+    <tr>
+      <td class="ItemsA">Thomas</td>
+      <td class="ItemsA">George</td>
+    </tr>
+    <tr>
+      <td class="ItemsA">Oscar</td>
+      <td class="ItemsA">James</td>
+    </tr>
+    <tr>
+      <td class="ItemsA">William</td>
+      <td class="ItemsA">Rhys</td>
+    </tr>
+  </table>
+
+  <!-- Table C -->
+  <table class="TableA">
+    <caption style="padding: 10px 0px;" align="bottom"><i>Table C</i></caption>
+    <tr>
+      <td class="TitleCenterA" colspan="3">Registered users</td>
+    </tr>
+    <tr>
+      <td class="ItemsA">Jhon</td>
+      <td class="ItemsA">Wesker</td>
+      <td class="ItemsA">Lilly</td>
+    </tr>
+    <tr>
+      <td class="ItemsA">Sarah</td>
+      <td class="ItemsA">Justin</td>
+      <td class="ItemsA">Tim</td>
+    </tr>
+  </table>
+
+  <!-- Table E -->
+  <table class="TableA">
+    <caption style="padding: 10px 0px;" align="bottom">Table E</caption>
+    <tr>
+      <td class="TitleCenterA" rowspan="3">Registered users</td>
+    </tr>
+    <tr>
+      <td class="ItemsA">Jhon</td>
+      <td class="ItemsA">Wesker</td>
+      <td class="ItemsA">Lilly</td>
+    </tr>
+    <tr>
+      <td class="ItemsA">Sarah</td>
+      <td class="ItemsA">Justin</td>
+      <td class="ItemsA">Tim</td>
+    </tr>
+  </table>
+
+  <!-- Table F -->
+  <table class="TableA">
+    <caption style="padding: 10px 0px;" align="bottom">Table F</caption>
+      <tr>
+        <td class="TitleCenterB" rowspan="3">Registered users</td>
+      </tr>
+      <tr>
+        <td class="ItemsB">Jhon</td>
+        <td class="ItemsB">Wesker</td>
+        <td class="ItemsB">Lilly</td>
+      </tr>
+      <tr>
+        <td class="ItemsB">Sarah</td>
+        <td class="ItemsB">Justin</td>
+        <td class="ItemsB">Tim</td>
+      </tr>
+    </table>
+
+  <!-- Table G -->
+  <table class="TableC">
+    <caption style="padding: 10px 0px;" align="bottom">Table G</caption>
+      <tr>
+        <td class="TitleCenterA" rowspan="4">Registered users</td>
+      </tr>
+      <tr>
+        <td class="ItemsA">Jhon</td>
+        <td class="ItemsA">Wesker</td>
+        
+      </tr>
+      <tr>
+          <td class="ItemsA">Lilly</td>
+          <td class="ItemsA">Tim</td>
+        </tr>
+      <tr>
+        <td class="ItemsA">Sarah</td>
+        <td class="ItemsA">Justin</td>
+      </tr>
+    </table>
+
+    <!-- Table H -->
+  <table class="TableA">
+    <caption style="padding: 10px 0px;" align="bottom">Table H</caption>
+      <tr>
+        <td class="ItemsA" colspan="3">Registered users</td>
+        <td class="ItemsA">Evelyn</td>
+        <td class="ItemsA">Lilly</td>
+      </tr>
+      <tr>
+        <td class="ItemsA" rowspan="3">Jhon</td>
+        <td class="ItemsA">Wesker</td>
+        <td class="ItemsA">William</td>
+        <td class="ItemsA">James</td>
+        <td class="ItemsA">Harper</td>
+      </tr>
+      <tr>
+        <td class="ItemsA">Tim</td>
+        <td class="ItemsA" colspan="2">Ella</td>
+        <td class="ItemsA" rowspan="2">Avery</td>
+      </tr>
+      <tr>
+        <td class="ItemsA">Sarah</td>
+        <td class="ItemsA">Justin</td>
+        <td class="ItemsA">Jackson</td>
+      </tr>
+      <tr>
+        <td class="ItemsA">Sarah</td>
+        <td class="ItemsA" colspan="4">Joe</td>
+      </tr>
+    </table>
+</body>
+
+</html>
